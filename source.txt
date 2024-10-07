@@ -1,0 +1,19 @@
+def main()
+{
+	var aaa
+	aaa = 10
+	Print(aaa)
+	while (aaa > 1) {
+		aaa = aaa - 1
+	}
+	Print(aaa)
+
+	var bbb
+	if (aaa == 0) {
+		bbb = 10
+	} else {
+		bbb = 179
+	}
+
+	Print(bbb)
+}
